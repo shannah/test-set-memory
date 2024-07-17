@@ -24,6 +24,10 @@ public class TestSetMemory extends JFrame {
         });
 
         startButton = new JButton("Start");
+        startButton.setToolTipText(
+                "Free memory: " + Runtime.getRuntime().freeMemory() + "; "
+                        + "Total memory: " + Runtime.getRuntime().totalMemory() + "; "
+                        + "Max memory: " + Runtime.getRuntime().maxMemory());
         startButton.addActionListener(e -> timer.start());
 
         stopButton = new JButton("Stop");
