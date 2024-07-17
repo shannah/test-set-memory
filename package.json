@@ -9,8 +9,7 @@
     "jdeploy": {
         "jdk": false,
         "args": [
-            "-Xms8G",
-            "-Xmx12G"
+
         ],
         "javaVersion": "17",
         "jar": "target/test-set-memory-1.0-SNAPSHOT.jar",
