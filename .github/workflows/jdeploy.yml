@@ -32,4 +32,3 @@ jobs:
         uses: shannah/jdeploy@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          jdeploy_version: '4.0.49'
